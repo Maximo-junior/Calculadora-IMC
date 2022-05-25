@@ -1,0 +1,101 @@
+*{margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url("../assets/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    font-family: "fontePersonalizada";
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(39, 35, 35);
+    
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+#resultado{
+ font-size: 20px;
+}
+
+.container{
+    font-family: Impact,arial;
+    max-width: 200px;
+    padding: 60px;
+    border-radius: 80px;
+    border:1px solid #ffffff;
+    box-shadow: 2px 2px 20px white;
+    font-size: large;
+    margin-left: 2rem;
+    margin-bottom: 5cm;
+    margin-top: 6rem;
+    float: left ;
+}
+
+
+input{
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 0.3rem;
+    border-radius: 15px;
+    max-width: 200px;
+    max-height: 85px;
+    border: 1px solid rgb(27, 24, 24);
+    opacity: 80%;
+}
+
+
+#button{
+    cursor: pointer;
+    color:#2d2d31;
+    background-color:rgb(219, 243, 220);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Marker Felt;
+    font-weight: bold;
+    width: 105px;
+    height: 45px;
+    margin-bottom: 5px;    
+    border:solid #fbfcff;
+    transition-property: background-color, padding;
+    transition-duration: 700ms;
+    transition-delay: 100ms;
+    ;
+}
+
+
+    
+
+#button:hover{  
+    background: linear-gradient(rgba(221, 121, 216, 0.11), yellow);
+
+    color: #2b2c33;
+}
+
+
+
+    @font-face{
+        font-family:"fontePersonalizada" ;
+        src:url("../fonts/Cayed\ Demo\ Version.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+
+
+@font-face{
+    font-family:"fontePersonalizada2" ;
+    src:url("../fonts/Livingst.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
